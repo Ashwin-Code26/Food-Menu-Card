@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Card</title>
+</head>
+
+<body style="background-color: bisque;">
+
+    <table border="25 " style="border-color: rgb(35, 41, 39);" cellpadding="25" cellspacing="50">
+        <caption>
+            <h1><u>MENU CARD</u></h1>
+        </caption>
+        <tbody>
+            <tr>
+                <td>
+                    <h3><u>Indian Cuisine</u></h3>
+                    <ul>
+                        <li>Biryan - Rs.120/-</li>
+                        <li>Butter Chicken - Rs.100/-</li>
+                        <li>Paneer Tikka - Rs.175/-</li>
+                        <li>Upma - Rs.1440/-</li>
+                    </ul>
+                </td>
+                <td><img src="./Images/Indian.jpg" alt="Indian food" width="150px" height="100px"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3>Japanese Cuisine</h3>
+                    <ul>
+                        <li>Ramen - Rs.350/-</li>
+                        <li>Tempura - Rs.280/-</li>
+                        <li>Sushi - Rs.280/-</li>
+                        <li>Umama- Rs.280/-</li>
+                    </ul>
+                </td>
+                <td><img src="./Images/Japanese.jpg" alt="Japanese food" width="150px" height="100px"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3>Italian Cuisine</h3>
+                    <ul>
+                        <li>Pizza - Rs.350/-</li>
+                        <li>Margherita - Rs.280/-</li>
+                        <li>Pasta Carbonara - Rs.220/-</li>
+                        <li>Risotto - Rs.180/-</li>
+                    </ul>
+                </td>
+                <td><img src="./Images/Italian.jpg" alt="Italian food" width="150px" height="100px"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3>Mexican Cuisine</h3>
+                    <ul>
+                        <li>Tacos - Rs.150/-</li>
+                        <li>Enchiladas - Rs.280/-</li>
+                        <li>Guacamole - Rs.300/-</li>
+                        <li>chuma- Rs.200/-</li>
+                    </ul>
+                </td>
+                <td><img src="./Images/Mexican.jpg" alt="Mexican food" width="150px" height="100px"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3>French Cuisine</h3>
+                    <ul>
+                        <li>Coq au Vin - Rs.350/-</li>
+                        <li>Ratatouille - Rs.280/-</li>
+                        <li>Croissants - Rs.280/-</li>
+                        <li>Puna- Rs.280/-</li>
+                    </ul>
+                </td>
+                <td><img src="./Images/French.jpg" alt="Japanese food" width="150px" height="100px"></td>
+
+            </tr>
+        </tbody>
+    </table>
+    <hr><br>
+    <h2><u>Book Here For Home Delivery</u></h2>
+
+    <fieldset>
+        <legend>
+            <h3>Select the cuisine</h3>
+        </legend>
+        <label for="#indian">Indian</label>
+        <input type="checkbox" name="food" id="indian" value="indian">
+        <label for="#japanese">Japanese</label>
+        <input type="checkbox" name="food" id="japanese" value="japanese">
+        <label for="#italian">Italian</label>
+        <input type="checkbox" name="food" id="italian" value="italian">
+        <label for="#mexican">Mexican</label>
+        <input type="checkbox" name="food" id="mexican" value="mexican">
+        <label for="#french">French</label>
+        <input type="checkbox" name="food" id="french" value="french"><br><br>
+    </fieldset><br>
+
+    <form action="">
+        <fieldset>
+            <legend>
+                <h3>Fill your details</h3>
+            </legend><br>
+            <label for="#firstname">Firstname:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="#lastname">Last Name:</label><br>
+            <input type="text" id="lastname" name="lastname"><br><br>
+            <label for="#address">Enter Address:</label><br>
+            <input type="text" id="address" name="address"><br><br>
+            <label for="#pincode">Enter Pincode:</label><br>
+            <input type="number" id="pincode" name="pincode"><br><br>
+            <label for="#phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="+91"><br><br>
+            <button type="Submit">Submit</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
